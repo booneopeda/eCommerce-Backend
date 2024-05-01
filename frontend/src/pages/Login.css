@@ -1,0 +1,59 @@
+.loginFormContainer {
+  max-width: 500px;
+}
+
+.loginForm {
+  border: solid thin black;
+  margin-top: 50px;
+  padding-bottom: 80px;
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgba(229, 199, 171, 0.5);
+}
+.background-loginpage {
+  background-color: #2d1b07;
+  width: 100vw;
+  height: 50rem;
+  padding-top: 50px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(../assets/images/herosection.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn-active {
+  color: white;
+  background-color: #2d1b07;
+  border: none;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  border-radius: 7px;
+}
+
+.btn-active:hover {
+  background-color: rgba(229, 199, 171, 0.5);
+  border: none;
+}
+
+.btn-inactive {
+  color: white;
+  background-color: rgba(45, 27, 7, 0.1);
+  border: solid thin rgba(45, 27, 7, 1);
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  border-radius: 7px;
+}
+
+.register-link {
+  text-decoration: none;
+  color: #2d1b07;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

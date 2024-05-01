@@ -1,0 +1,97 @@
+.red-hat-display-main {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+#title {
+  font-size: 7vw;
+  letter-spacing: 22.4px;
+  color: #e5c7ab;
+  padding-top: 2vh;
+}
+
+#En {
+  color: #e56f00;
+}
+
+.sub-heading {
+  font-size: 1.5vw;
+  color: #feb09c;
+  letter-spacing: 3px;
+}
+
+.btn--shop {
+  font-size: 20px;
+  border: solid #e5c7ab;
+  border-radius: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e5c7ab;
+  margin-right: 30px;
+  transition: all 0.5s;
+}
+
+.btn--shop span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn--shop span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn--shop:hover span {
+  padding-right: 25px;
+}
+
+.btn--shop:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn--signin {
+  font-size: 20px;
+  border: solid #e5c7ab;
+  border-radius: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: transparent;
+  margin-left: 30px;
+  color: #e5c7ab;
+  border-width: thin;
+}
+
+#btnsignin:hover {
+  color: #52300c;
+  background-color: #e5c7ab;
+}
+
+.btn--container {
+  margin-top: 65px;
+}
+
+.diamondImg {
+  padding-top: 25vh;
+  width: 50px;
+}
+.background {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
+    url(../assets/images/herosection.png);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
