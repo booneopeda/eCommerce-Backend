@@ -1,9 +1,0 @@
-#cart-image {
-  border: solid white thin;
-  border-radius: 500px;
-  width: 50px;
-  position: fixed;
-  top: 10%;
-  left: 86vw;
-  z-index: 20;
-}
