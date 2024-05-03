@@ -3,8 +3,12 @@
 ### E-COMMERCE API DOCUMENTATION
 
 **Installation:**
+- Admin User:
 
 `npm install`
+
+**Backend URL:**
+- http://ec2-18-222-62-228.us-east-2.compute.amazonaws.com/b7
 
 **User Credentials:**
 
