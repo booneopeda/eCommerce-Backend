@@ -16,9 +16,7 @@ const orderRoutes = require("./routes/order");
 cron.schedule("*/5 * * * *", () => {
   fetch("https://ecommerce-webapp-aokf.onrender.com/b7/products")
     .then((res) => res.json())
-    .then((data) => {
-      console.log("Request done");
-    });
+    .then((data) => {});
 });
 
 // [SECTION] Environment Setup
