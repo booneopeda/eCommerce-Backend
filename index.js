@@ -3,6 +3,7 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+const cron = require("node-cron");
 
 // Routes
 
@@ -10,6 +11,15 @@ const userRoutes = require("./routes/user");
 const productRoutes = require("./routes/product");
 const cartRoutes = require("./routes/cart");
 const orderRoutes = require("./routes/order");
+
+// Utiliza cron to spin up the render server
+cron.schedule("*/5 * * * *", () => {
+  fetch("https://ecommerce-webapp-aokf.onrender.com/b7/products")
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("Request done");
+    });
+});
 
 // [SECTION] Environment Setup
 const port = 4007;
